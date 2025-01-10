@@ -1,0 +1,42 @@
+From 8ce69b747a2a645267708b0ad17dd67f6c43289c Mon Sep 17 00:00:00 2001
+From: Belen Ramos <brgutierrez@us.es>
+Date: Wed, 8 Jan 2025 09:24:55 +0100
+Subject: [PATCH 2/5] Initial version ready for local deployment
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Solucion de un bug en la validación de entradas
+
+Mejora de la legibilidad en el codigo y corrección de estilo
+---
+ .moduleignore | 1 +
+ archivo2.txt  | 1 +
+ archivo3.txt  | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 archivo2.txt
+ create mode 100644 archivo3.txt
+
+diff --git a/.moduleignore b/.moduleignore
+index e69de29..57c2015 100644
+--- a/.moduleignore
++++ b/.moduleignore
+@@ -0,0 +1 @@
++webhook
+diff --git a/archivo2.txt b/archivo2.txt
+new file mode 100644
+index 0000000..5ae72fa
+--- /dev/null
++++ b/archivo2.txt
+@@ -0,0 +1 @@
++cambio 2
+diff --git a/archivo3.txt b/archivo3.txt
+new file mode 100644
+index 0000000..93dc2bf
+--- /dev/null
++++ b/archivo3.txt
+@@ -0,0 +1 @@
++cambio 3
+-- 
+2.47.1
+

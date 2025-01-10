@@ -1,0 +1,45 @@
+From 56335e9c503306fec018860d3e60ca5394222731 Mon Sep 17 00:00:00 2001
+From: Belen Ramos <brgutierrez@us.es>
+Date: Wed, 8 Jan 2025 09:33:18 +0100
+Subject: [PATCH 3/5] =?UTF-8?q?Soluci=C3=B3n=20a=20un=20bug=20en=20la=20va?=
+ =?UTF-8?q?lidaci=C3=B3n=20de=20entradas?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+cambio 1 (se combinará (squash) con el commit de 'Solución a un bug en la validación de entradas'). Cambie el orden de los commits, si lo considera necesario
+
+Fix bug algo raro (se combinará (squash) con el commit anterior durante el rebase)
+---
+ archivo1.txt | 1 +
+ archivo4.txt | 1 +
+ archivo5.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 archivo1.txt
+ create mode 100644 archivo4.txt
+ create mode 100644 archivo5.txt
+
+diff --git a/archivo1.txt b/archivo1.txt
+new file mode 100644
+index 0000000..be4b69c
+--- /dev/null
++++ b/archivo1.txt
+@@ -0,0 +1 @@
++cambio 1
+diff --git a/archivo4.txt b/archivo4.txt
+new file mode 100644
+index 0000000..3320c4a
+--- /dev/null
++++ b/archivo4.txt
+@@ -0,0 +1 @@
++cambio 4
+diff --git a/archivo5.txt b/archivo5.txt
+new file mode 100644
+index 0000000..d8eeddc
+--- /dev/null
++++ b/archivo5.txt
+@@ -0,0 +1 @@
++cambio 5
+-- 
+2.47.1
+

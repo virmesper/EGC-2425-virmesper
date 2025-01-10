@@ -1,0 +1,65 @@
+From 76f70927050cffd62fd36a6b86007b556b04838a Mon Sep 17 00:00:00 2001
+From: Belen Ramos <brgutierrez@us.es>
+Date: Wed, 8 Jan 2025 09:33:19 +0100
+Subject: [PATCH 5/5] Eliminar los archivos .txt creados durante el ejercicio
+
+---
+ archivo1.txt | 1 -
+ archivo2.txt | 1 -
+ archivo3.txt | 1 -
+ archivo4.txt | 1 -
+ archivo5.txt | 1 -
+ archivo6.txt | 1 -
+ 6 files changed, 6 deletions(-)
+ delete mode 100644 archivo1.txt
+ delete mode 100644 archivo2.txt
+ delete mode 100644 archivo3.txt
+ delete mode 100644 archivo4.txt
+ delete mode 100644 archivo5.txt
+ delete mode 100644 archivo6.txt
+
+diff --git a/archivo1.txt b/archivo1.txt
+deleted file mode 100644
+index be4b69c..0000000
+--- a/archivo1.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-cambio 1
+diff --git a/archivo2.txt b/archivo2.txt
+deleted file mode 100644
+index 5ae72fa..0000000
+--- a/archivo2.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-cambio 2
+diff --git a/archivo3.txt b/archivo3.txt
+deleted file mode 100644
+index 93dc2bf..0000000
+--- a/archivo3.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-cambio 3
+diff --git a/archivo4.txt b/archivo4.txt
+deleted file mode 100644
+index 3320c4a..0000000
+--- a/archivo4.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-cambio 4
+diff --git a/archivo5.txt b/archivo5.txt
+deleted file mode 100644
+index d8eeddc..0000000
+--- a/archivo5.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-cambio 5
+diff --git a/archivo6.txt b/archivo6.txt
+deleted file mode 100644
+index 3071346..0000000
+--- a/archivo6.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-cambio 6
+-- 
+2.47.1
+

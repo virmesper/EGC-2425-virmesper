@@ -1,0 +1,24 @@
+From 4addaa781c525c55adf7fdad61d69f7aff73400d Mon Sep 17 00:00:00 2001
+From: Belen Ramos <brgutierrez@us.es>
+Date: Wed, 8 Jan 2025 09:33:19 +0100
+Subject: [PATCH 4/5] =?UTF-8?q?Mejora=20de=20la=20legibilidad=20en=20el=20?=
+ =?UTF-8?q?c=C3=B3digo=20y=20correcci=C3=B3n=20de=20estilo?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ archivo6.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 archivo6.txt
+
+diff --git a/archivo6.txt b/archivo6.txt
+new file mode 100644
+index 0000000..3071346
+--- /dev/null
++++ b/archivo6.txt
+@@ -0,0 +1 @@
++cambio 6
+-- 
+2.47.1
+
