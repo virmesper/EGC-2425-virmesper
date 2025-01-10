@@ -1,0 +1,22 @@
+name: Realeses
+
+on:
+  push:
+
+jobs:
+  releases:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Create a release 
+    env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+            gh release create "Release v*.*.*"
+
+
+  
+  
+
+
